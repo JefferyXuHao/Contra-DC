@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F1D9F57D-EBEF-4B8C-85D4-3EF548B48B35}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Contra</RootNamespace>
+    <AssemblyName>Contra</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>Logo.ico</ApplicationIcon>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>DD7B03BBD4337AFF60F012C6F98F57770DE9C389</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Contra_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>http://192.168.0.2/Contra/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CardDll, Version=1.0.4780.41536, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dll\CardDll.dll</HintPath>
+    </Reference>
+    <Reference Include="ContraReg2">
+      <HintPath>..\Dll\ContraReg2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v9.3, Version=9.3.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.OfficeSkins.v9.3, Version=9.3.3.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v9.3, Version=9.3.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v9.3, Version=9.3.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v9.3, Version=9.3.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v9.3.Core, Version=9.3.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v9.3.Presets, Version=9.3.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v9.3.Win, Version=9.3.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v9.3, Version=9.3.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="log4net, Version=1.2.0.30714, Culture=neutral, PublicKeyToken=b32731d11ce58905">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libaray\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CncManager\BaseInfoCollection.cs" />
+    <Compile Include="CncManager\BaseInfo.cs" />
+    <Compile Include="CncManager\ChildInfo.cs" />
+    <Compile Include="CncManager\EndInfo.cs" />
+    <Compile Include="CncManager\HeadInfo.cs" />
+    <Compile Include="CncManager\HeadType.cs" />
+    <Compile Include="CncManager\M21Info.cs" />
+    <Compile Include="CncManager\SingleMoveInfo.cs" />
+    <Compile Include="CncManager\OtherInfo.cs" />
+    <Compile Include="CncManager\StartInfo.cs" />
+    <Compile Include="CncManager\UnionMoveInfo.cs" />
+    <Compile Include="Control\AxisControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\AxisControl.designer.cs">
+      <DependentUpon>AxisControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\AxisItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\AxisItem.designer.cs">
+      <DependentUpon>AxisItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\CloseButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\LockCheckButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\LockCheckButton.Designer.cs">
+      <DependentUpon>LockCheckButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\StateButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Custom\ContraSettings.cs" />
+    <Compile Include="Delegate\WaitEventHandler.cs" />
+    <Compile Include="Delegate\WaitShowHandler.cs" />
+    <Compile Include="Frm\FormJiagongTimeSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\FormJiagongTimeSet.Designer.cs">
+      <DependentUpon>FormJiagongTimeSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\FormPckCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\FormPckCheck.Designer.cs">
+      <DependentUpon>FormPckCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\FormDaoKu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\FormDaoKu.Designer.cs">
+      <DependentUpon>FormDaoKu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\FormEditParam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\FormEditParam.Designer.cs">
+      <DependentUpon>FormEditParam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\FormHoleEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\FormHoleEdit.Designer.cs">
+      <DependentUpon>FormHoleEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\FormJiagongHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\FormJiagongHistory.Designer.cs">
+      <DependentUpon>FormJiagongHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\FormMove.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\FormMove.Designer.cs">
+      <DependentUpon>FormMove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\FormOutTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\FormOutTest.Designer.cs">
+      <DependentUpon>FormOutTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\FormReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\FormReg.Designer.cs">
+      <DependentUpon>FormReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\FormRestart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\FormRestart.Designer.cs">
+      <DependentUpon>FormRestart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\FormSetValue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\FormSetValue.Designer.cs">
+      <DependentUpon>FormSetValue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\FormStartZero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\FormStartZero.Designer.cs">
+      <DependentUpon>FormStartZero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\FormTControlSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\FormTControlSet.Designer.cs">
+      <DependentUpon>FormTControlSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\FormToZero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\FormToZero.Designer.cs">
+      <DependentUpon>FormToZero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\FormWarning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\FormWarning.Designer.cs">
+      <DependentUpon>FormWarning.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\FrmInputPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\FrmInputPassword.Designer.cs">
+      <DependentUpon>FrmInputPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\FrmSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\FrmSet.Designer.cs">
+      <DependentUpon>FrmSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\FormWait.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\FormWait.Designer.cs">
+      <DependentUpon>FormWait.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\CardHelper.cs" />
+    <Compile Include="Helper\HistoryHelper.cs" />
+    <Compile Include="Helper\IOHelper.cs" />
+    <Compile Include="Helper\OtherHelper.cs" />
+    <Compile Include="Helper\PCKHelper.cs" />
+    <Compile Include="Helper\PNCHelper.cs" />
+    <Compile Include="Helper\RegHelper.cs" />
+    <Compile Include="Helper\XmlHelper.cs" />
+    <Compile Include="Info\AxisModifyInfo.cs" />
+    <Compile Include="Info\HoleOperateInfo.cs" />
+    <Compile Include="Info\Pck\PCKInfo.cs" />
+    <Compile Include="Info\Pck\PCKStandardInfo.cs" />
+    <Compile Include="Info\Pnc\JiagongHistoryInfo.cs" />
+    <Compile Include="Info\Pnc\HoleInfo.cs" />
+    <Compile Include="Info\Pnc\HoleCollection.cs" />
+    <Compile Include="Info\Pnc\ParamCollection.cs" />
+    <Compile Include="Info\Pnc\ParamInfo.cs" />
+    <Compile Include="Info\Pnc\ParamList.cs" />
+    <Compile Include="Info\Pnc\PNCInfo.cs" />
+    <Compile Include="Info\Pnc\ThrowSetInfo.cs" />
+    <Compile Include="Info\Set\232Info.cs" />
+    <Compile Include="Info\Set\AbsolutePosSetInfo.cs" />
+    <Compile Include="Info\Set\AxisSetInfo.cs" />
+    <Compile Include="Info\Set\BaseSetInfo.cs" />
+    <Compile Include="Info\ContraInfo.cs" />
+    <Compile Include="Control\CncListControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\CncListControl.Designer.cs">
+      <DependentUpon>CncListControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Info\EditInfo.cs" />
+    <Compile Include="Exception\WarningException.cs" />
+    <Compile Include="Info\MainConditionInfo.cs" />
+    <Compile Include="Info\Set\ButtonSetInfo.cs" />
+    <Compile Include="Info\Set\OtherSetInfo.cs" />
+    <Compile Include="Info\OutTestInfo.cs" />
+    <Compile Include="Info\ReStartLineNumInfo.cs" />
+    <Compile Include="Info\Set\SetInfo.cs" />
+    <Compile Include="Info\SetValueInfo.cs" />
+    <Compile Include="Info\Set\IOSetInfo.cs" />
+    <Compile Include="Info\StartToZeroInfo.cs" />
+    <Compile Include="Info\ToZeroInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Control\AxisControl.resx">
+      <DependentUpon>AxisControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\AxisItem.resx">
+      <DependentUpon>AxisItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\CloseButton.resx">
+      <DependentUpon>CloseButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\CncListControl.resx">
+      <DependentUpon>CncListControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\LockCheckButton.resx">
+      <DependentUpon>LockCheckButton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\StateButton.resx">
+      <DependentUpon>StateButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\FormDaoKu.resx">
+      <DependentUpon>FormDaoKu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\FormEditParam.resx">
+      <DependentUpon>FormEditParam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\FormHoleEdit.resx">
+      <DependentUpon>FormHoleEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\FormJiagongHistory.resx">
+      <DependentUpon>FormJiagongHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\FormJiaGongTimeSet.resx">
+      <DependentUpon>FormJiagongTimeSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\FormMove.resx">
+      <DependentUpon>FormMove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\FormOutTest.resx">
+      <DependentUpon>FormOutTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\FormPckCheck.resx">
+      <DependentUpon>FormPckCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\FormReg.resx">
+      <DependentUpon>FormReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\FormRestart.resx">
+      <DependentUpon>FormRestart.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\FormSetValue.resx">
+      <DependentUpon>FormSetValue.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\FormStartZero.resx">
+      <DependentUpon>FormStartZero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\FormTControlSet.resx">
+      <DependentUpon>FormTControlSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\FormToZero.resx">
+      <DependentUpon>FormToZero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\FormWait.resx">
+      <DependentUpon>FormWait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\FormWarning.resx">
+      <DependentUpon>FormWarning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\FrmInputPassword.resx">
+      <DependentUpon>FrmInputPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\FrmSet.resx">
+      <DependentUpon>FrmSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Contra_TemporaryKey.pfx" />
+    <None Include="log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Helper\SkinGalleryHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="adt8960.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\en-US.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Logo.ico" />
+    <Content Include="OverrideLogo.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OverrideLogo.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\苏州中谷新LOGO.jpg" />
+    <None Include="adt8960.lib">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\on.jpg" />
+    <None Include="Resources\off.jpg" />
+    <None Include="Resources\center.jpg" />
+    <None Include="Resources\close.png" />
+    <None Include="Resources\Close1.jpg" />
+    <None Include="Resources\Close2.jpg" />
+    <None Include="Resources\Close2.png" />
+    <None Include="Resources\set.png" />
+    <None Include="Resources\min.png" />
+    <None Include="Resources\loading.gif" />
+    <None Include="Resources\keyboard.png" />
+    <None Include="Resources\miZeroRestart.Image.png" />
+    <None Include="Resources\topLogo.jpg" />
+    <None Include="Resources\cc.jpg" />
+    <None Include="Resources\RibbonUserDesigner_HtmlHomeLarge.png" />
+    <None Include="Resources\btnToZero.Image.png" />
+    <None Include="Resources\%2803,38%29.png" />
+    <None Include="Resources\%2800,47%29.png" />
+    <None Include="Resources\%2800,35%29.png" />
+    <None Include="Resources\%2803,43%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ContraLibrary\ContraLibrary.csproj">
+      <Project>{FD79713D-E07A-4B81-B206-ECE152B29D73}</Project>
+      <Name>ContraLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

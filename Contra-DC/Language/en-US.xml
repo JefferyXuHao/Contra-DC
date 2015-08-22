@@ -1,0 +1,532 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<languages>
+  <item name="Language">English</item>
+  
+  
+  <!--程序内部分-->
+  <!--程序内部分-->
+  <item name="BaseInfoCollection.NotAnalyse">line{0}can not work!</item>
+  <item name="FormEditParam.Text">{0}edit</item>
+  <item name="FormEditParam.MainKuan">Ton</item>
+  <item name="FormEditParam.MainJian">Toff</item>
+  <item name="FormEditParam.DianLiu">I</item>
+  <item name="FormEditParam.DianRong">Cap</item>
+  <item name="FormEditParam.XiuZheng">Stay</item>
+  <item name="FormEditParam.DianYa">Voltage</item>
+
+  <item name="FormHoleEdit.DaoChuChengGong">export successfully!</item>
+  <item name="FormHoleEidt.DaoRuChengGong">import successfully!</item>
+
+  <item name="FormJiagongHistory.Sure">are you sure to delety all history？</item>
+  <item name="FormJiagongHistory.SaveSuccess">save successfully!</item>
+
+  <item name="FormMain.ThrowMode.NotThrow">NOT USE</item>
+  <item name="FormMain.ThrowMode.Mode1">MODE 1</item>
+  <item name="FormMain.ThrowMode.Mode2">MODE 2</item>
+  <item name="FormMain.AutoCenter.XCenter">X center:{0:0.000}</item>
+  <item name="FormMain.AutoCenter.YCenter">Y center:{0:0.000}</item>
+  <item name="FormMain.AutoCenter.First">1st time</item>
+  <item name="FormMain.AutoCenter.Second">2nd time</item>
+  <item name="FormMain.AutoCenter.Third">3rd time</item>
+  <item name="FormMain.AutoCenter.Four">4th time</item>
+  <item name="FormMain.AutoCenter.Five">5th time</item>
+  <item name="FormMain.BBatteryError">B axis battery problem</item>
+  <item name="FormMain.CBatteryError">C axis battery problem</item>
+  <item name="FormMain.QiYaError">Low air presure</item>
+  <item name="FormMain.XError">X axis problem</item>
+  <item name="FormMain.YError">Y axis problem</item>
+  <item name="FormMain.WError">W axis problem</item>
+  <item name="FormMain.ZError">Z axis problem</item>
+  <item name="FormMain.BError">B axis problem</item>
+  <item name="FormMain.CError">C axis problem</item>
+
+  <item name="FormMain.XPlusError">X axis hardware limit +</item>
+  <item name="FormMain.XMinusError">X axis hardware limit -</item>
+  <item name="FormMain.YPlusError">Y axis hardware limit +</item>
+  <item name="FormMain.YMinusError">Y axis hardware limit -</item>
+  <item name="FormMain.WPlusError">W axis hardware limit +</item>
+  <item name="FormMain.WMinusError">W axis hardware limit -</item>
+  <item name="FormMain.ZMinusError">Z axis hardware limit -</item>
+
+  <item name="FormMain.MustHavTwoParam"> must hav two param line!</item>
+  <item name="FormMain.ChangeDianJi">Change electrode, do you want to go to change postion？</item>
+  <item name="FormMain.WorkError">job failure, contiune work？!</item>
+  <item name="FormMain.LastThrowDepth">finish position of last hole</item>
+  <item name="FormMain.CurrentAxis">present coordinate:</item>
+
+  <item name="FormMain.CurrentParamWarning">present parameters:{0},\r\nfinish mode:{1}</item>
+
+  <item name="FormMain.ScriptFinish">list done!</item>
+  <item name="FormMain.ScriptNotLoad">not load list!</item>
+  <item name="FormMain.NotChooseAnyHole">not choosen any position!</item>
+  <item name="FormMain.IsFirst">already to the top!</item>
+  <item name="FormMain.RunToEnd">already to the end!</item>
+  <item name="FormMain.AxisModify">change coordinate({0})</item>
+  <item name="FormMain.Manual">Manual</item>
+  <item name="FormMain.TotalHoles">holes sum:        {0}</item>
+  <item name="FormMain.TotalTime">runing time:      {0:##00}:{1:00}</item>
+  <item name="FormMain.CurrentTime">present time:    {0:00}:{1:00}</item>
+  <item name="FormMain.LastTime">last time:          {0:00}:{1:00}</item>
+  <item name="FormMain.Overtime">over time:         {0}</item>
+  <item name="FormMain.NoKeyborad">not found the screen keyboard!</item>
+  <item name="FormMain.Throw">Throw</item>
+  <item name="FormMain.WillClearHole">clear all hole position, go on?</item>
+  <item name="FormMain.HoleList">holes list({0})</item>
+  <item name="FormMain.Contact">please contact zgedm!</item>
+  <item name="FormMain.ScriptNotSave">the list and parameters not save, do you save？</item>
+  <item name="FormMain.ReallyShutdown">Shut off the machine?</item>
+  <item name="FormMain.HighSpeed">High Spd</item>
+  <item name="FormMain.LowSpeed">Low Spd</item>
+
+  <item name="FormMain.labelControl84">Start Depth2:</item>
+  <item name="FormMain.labelControl83">Remain2:</item>
+  <item name="FormMain.labelControl82">Sensitivity2:</item>
+
+
+  <item name="FormReg.RegSucces">Registed successfully</item>
+
+  <item name="FormStartZero.AtLeastOne">Chose at least on axis to ref.point！</item>
+
+  <item name="FrmInputPassword.PasswordNotCorrect">wrong password!</item>
+  <item name="FrmSet.SimpleWheel">Simple handwheel</item>
+  <item name="FrmSet.AdvWheel">Multiple handwheel</item>
+  <item name="FrmSet.UpLimit">Z high -limit</item>
+  <item name="FrmSet.DownLimit">Z low -limit</item>
+
+  <item name="CardHelper.InitFailure">initial fall of the control board!</item>
+  <item name="Cardhelper.NotInstallCard">NOT found ADT8960!</item>
+  <item name="CardHelper.NotDrive">not installed the driver!</item>
+  <item name="CardHelper.PCIError">PCI fall!</item>
+  <item name="CardHelper.LibVersion">Liberary ver:{0}</item>
+  <item name="CardHelper.HardwareVersion">Hardware ver:{0}</item>
+
+  <item name="HistoryHelper.Format">line\tcoordinate\tX\tY\tW\tB\tC\tset depth  finish depth</item>
+
+  <item name="IOHelper.WheelOFF">HDW OFF</item>
+  <item name="IOHelper.Wheel">HDW</item>
+
+  <item name="PNCHelper.FileError1">file fault：no start code!</item>
+  <item name="PNCHelper.FileError2">file fault：blank line,line{0}!</item>
+  <item name="PNCHelper.FileError3">file fault：can not work line[{0}]，line{0}</item>
+
+  <item name="ParamCollection.Manual">Manual</item>
+
+  <item name="ContraHelper.FilterPnc">Pnc file(*.pnc)|*.pnc|all files|*.*</item>
+  <item name="ContraHelper.FilterCnc">Cnc list file(*.cnc)|*.cnc|all files|*.*</item>
+  <item name="ContraHelper.FilterTxt">txt file(*.txt)|*.txt|all files|*.*</item>
+
+  <item name="PortHelper.InitPortFailure">initial {0} fault!</item>
+  <item name="PortHelper.DataError">wrong data from Servopack!</item>
+  <item name="PortHelper.PLCError">PLC connection Error</item>
+
+
+  <!--以下是程序界面自动解析-->
+  <item name="FormWait.label1">Starting...</item>
+
+
+  <item name="FrmLogin.FrmLogin">Login</item>
+  <item name="FrmLogin.btnReg">Register</item>
+  <item name="FrmLogin.btnLogin">Login</item>
+
+  <item name="FormReg.FormReg">Register</item>
+  <item name="FormReg.btnPaste">Paste</item>
+  <item name="FormReg.labelControl1">Company</item>
+  <item name="FormReg.btnCancel">Cancel</item>
+  <item name="FormReg.btnReg">Register</item>
+  <item name="FormReg.labelControl92">Reg Code</item>
+
+  <item name="FormMessage.FormMessage">Prompt Message</item>
+  <item name="FormMessage.btnNo">No</item>
+  <item name="FormMessage.btnYes">Yes</item>
+  <item name="FormMessage.btnOK">OK</item>
+
+
+  <item name="FormMain.FormMain">High Speed CNC Drilling</item>
+  <item name="FormMain.groupControl6">Function</item>
+  <item name="FormMain.btnShutdown">Shutoff</item>
+  <item name="FormMain.btnSet">Set</item>
+  <item name="FormMain.btnProgram">Program</item>
+  <item name="FormMain.btnManual">Manual</item>
+  <item name="FormMain.btnHelper">Help</item>
+  <item name="FormMain.grpContrl">Coordinate</item>
+  <item name="FormMain.groupControl3">Status</item>
+  <item name="FormMain.groupControl8">Safe Height</item>
+  <item name="FormMain.lbJiagongWarning">Current Params：</item>
+  <item name="FormMain.xtraTabPage7">Manual</item>
+  <item name="FormMain.xtraTabPage8">Throw</item>
+  <item name="FormMain.labelControl45">Sensitivity：</item>
+  <item name="FormMain.labelControl44">Remain：</item>
+  <item name="FormMain.labelControl37">Start Depth：</item>
+  <item name="FormMain.btnAddParam">Add</item>
+  <item name="FormMain.btnDeleteParam">Remove</item>
+  <item name="FormMain.groupControl5">Motion Control</item>
+  <item name="FormMain.lbStopWarning">Pause When Finished</item>
+  <item name="FormMain.btnNext">Step</item>
+  <item name="FormMain.btnStart">Start</item>
+  <item name="FormMain.btnReset">Recover</item>
+  <item name="FormMain.btnStop">Pause</item>
+  <item name="FormMain.btnNewHoles">New</item>
+  <item name="FormMain.btnSaveScript">Save</item>
+  <item name="FormMain.btnMoreOperate">Edit</item>
+  <item name="FormMain.btnLoadFile">Load</item>
+  <item name="FormMain.btnNew">New</item>
+  <item name="FormMain.miEdit">Edit</item>
+  <item name="FormMain.btnLoadScript">LoadScript</item>
+  <item name="FormMain.groupControl7">Statistics</item>
+  <item name="FormMain.btnJiagongHistory">History</item>
+  <item name="FormMain.btnTimeSet">Set</item>
+  <item name="FormMain.lbTotalTime">Total Time:    00:00</item>
+  <item name="FormMain.btnClearTotalCount">Zero</item>
+  <item name="FormMain.lbTotalCount">Total Count:       0</item>
+  <item name="FormMain.lbLastTime">Last Cost:    00:00</item>
+  <item name="FormMain.lbCurrentTime">Current Cost:    00:00</item>
+  <item name="FormMain.btnLoadParam">Load Params</item>
+  <item name="FormMain.groupControl4">Other</item>
+  <item name="FormMain.btnStopCenter">Stop Center</item>
+  <item name="FormMain.btnAutoCenter">Auto Center</item>
+  <item name="FormMain.btnToZero">To Zero</item>
+  <item name="FormMain.btnZeroRestart">Zero Recover</item>
+  <item name="FormMain.groupControl1">Input</item>
+  <item name="FormMain.labelControl92">Input</item>
+  <item name="FormMain.chkUseWSafeHeight">W use</item>
+  <item name="FormMain.btnZeroC">Zero</item>
+  <item name="FormMain.btnZeroB">Zero</item>
+  <item name="FormMain.btnZeroZ">Zero</item>
+  <item name="FormMain.btnZeroW">Zero</item>
+  <item name="FormMain.btnZeroY">Zero</item>
+  <item name="FormMain.btnZeroX">Zero</item>
+  <item name="FormMain.btnJiagong">Work</item>
+  <item name="FormMain.btnShuibang">Pump</item>
+  <item name="FormMain.btnShineng">ERO Enable</item>
+  <item name="FormMain.btnSpeed">HighSpeed</item>
+  <item name="FormMain.btnMen">Door</item>
+  <item name="FormMain.btnDuidao">Check</item>
+  <item name="FormMain.btnFushi">electrode help finger</item>
+  <item name="FormMain.btnWarning">Alarm</item>
+  <item name="FormMain.btnWHit">Short circuit</item>
+  <item name="FormMain.btnZThrow">Z Throw</item>
+  <item name="FormMain.btnZZero">Z Zero</item>
+  <item name="FormMain.btnWheel">HDW OFF</item>
+  <item name="FormMain.btnAxisR">Rotate</item>
+  <item name="FormMain.btnFanjixing">Polarity</item>
+  <item name="FormMain.btnBuzzing">Buzzer</item>
+  <item name="FormMain.btnChongShui">Water</item>
+  <item name="FormMain.btnMovePanel">Move Panel</item>
+  <item name="FormMain.btnLight">Light</item>
+  <item name="FormMain.cbEmptyRun">Dry Run</item>
+  <item name="FormMain.gcAxisModify">change coordinate(G54)</item>
+  <item name="FormMain.gcParam.gridColumn2">Ton</item>
+  <item name="FormMain.gcParam.gridColumn3">Toff</item>
+  <item name="FormMain.gcParam.gridColumn4">I</item>
+  <item name="FormMain.gcParam.gridColumn7">Cap</item>
+  <item name="FormMain.gcParam.gridColumn5">DepthA</item>
+  <item name="FormMain.gcParam.gridColumn6">Stay</item>
+  <item name="FormMain.gcParam.gridColumn8">Rotate</item>
+  <item name="FormMain.gcParam.gridColumn9">Polarity</item>
+  <item name="FormMain.gcParam.gridColumn10">Speed</item>
+  <item name="FormMain.gcParam.gridColumn11">DepthB</item>
+  <item name="FormMain.gcParam.gridColumn19">Voltage</item>
+  <item name="FormMain.gcParam.gridColumn21">ThrowMode</item>
+  <item name="FormMain.gridControl2.gridColumn12">Work</item>
+  <item name="FormMain.gridControl2.gridColumn20">CSYS</item>
+  <item name="FormMain.gridControl2.gridColumn18">Param</item>
+  <item name="FormMain.CardDisconnect">Card disconnect</item>
+  <item name="FormMain.btnChangeDaoXiang">Change Guide</item>
+
+  <item name="FormWarning.FormWarning">Warning</item>
+  <item name="FormWarning.btnHide">OK</item>
+
+  <item name="FrmInputPassword.FrmInputPassword">Password</item>
+  <item name="FrmInputPassword.btnOK">OK</item>
+  <item name="FrmInputPassword.btnCancel">Cancel</item>
+  <item name="FrmInputPassword.label1">Password:</item>
+
+  <item name="FrmSet.FrmSet">Parameter setting</item>
+  <item name="FrmSet.xtraTabPage1">axis config</item>
+  <item name="FrmSet.labelControl137">Low speed</item>
+  <item name="FrmSet.labelControl111">C resolution</item>
+  <item name="FrmSet.labelControl110">B resolution</item>
+  <item name="FrmSet.labelControl52">soft limit -</item>
+  <item name="FrmSet.labelControl37">soft limit -</item>
+  <item name="FrmSet.labelControl51">soft limit+</item>
+  <item name="FrmSet.labelControl38">soft limit+</item>
+  <item name="FrmSet.labelControl34">soft limit -</item>
+  <item name="FrmSet.labelControl36">soft limit+</item>
+  <item name="FrmSet.labelControl20">soft limit -</item>
+  <item name="FrmSet.labelControl32">soft limit+</item>
+  <item name="FrmSet.labelControl14">soft limit -</item>
+  <item name="FrmSet.labelControl16">soft limit+</item>
+  <item name="FrmSet.labelControl108">W resolution</item>
+  <item name="FrmSet.labelControl107">Y resolution</item>
+  <item name="FrmSet.labelControl106">X resolution</item>
+  <item name="FrmSet.labelControl19">soft limit -</item>
+  <item name="FrmSet.labelControl11">soft limit+</item>
+  <item name="FrmSet.labelControl8">X axis</item>
+  <item name="FrmSet.labelControl136">Low speed</item>
+  <item name="FrmSet.labelControl1">High speed</item>
+  <item name="FrmSet.labelControl135">Low speed</item>
+  <item name="FrmSet.labelControl13">High speed</item>
+  <item name="FrmSet.labelControl15">axis number</item>
+  <item name="FrmSet.labelControl18">High speed</item>
+  <item name="FrmSet.labelControl139">Low speed</item>
+  <item name="FrmSet.labelControl31">High speed</item>
+  <item name="FrmSet.labelControl109">Low speed</item>
+  <item name="FrmSet.labelControl2">High speed</item>
+  <item name="FrmSet.labelControl142">Z low limit mode</item>
+  <item name="FrmSet.labelControl132">Z encode port</item>
+  <item name="FrmSet.labelControl29">Z resolution</item>
+  <item name="FrmSet.labelControl141">Z stroke 2nd</item>
+  <item name="FrmSet.labelControl28">Z stroke 1st</item>
+  <item name="FrmSet.labelControl26">port num.</item>
+  <item name="FrmSet.labelControl35">port num.</item>
+  <item name="FrmSet.labelControl25">port num.</item>
+  <item name="FrmSet.labelControl24">port num.</item>
+  <item name="FrmSet.labelControl23">port num.</item>
+  <item name="FrmSet.labelControl5">B axis</item>
+  <item name="FrmSet.labelControl9">Y axis</item>
+  <item name="FrmSet.labelControl12">W axis</item>
+  <item name="FrmSet.labelControl138">Low speed</item>
+  <item name="FrmSet.labelControl22">High speed</item>
+  <item name="FrmSet.labelControl17">Z axis</item>
+  <item name="FrmSet.labelControl33">C axis</item>
+  <item name="FrmSet.xtraTabPage2">input config</item>
+  <item name="FrmSet.labelControl105">air check input</item>
+  <item name="FrmSet.labelControl50">touch input</item>
+  <item name="FrmSet.labelControl96">throw input</item>
+  <item name="FrmSet.labelControl92">zero input</item>
+  <item name="FrmSet.labelControl94">EMG input</item>
+  <item name="FrmSet.labelControl95">skip input</item>
+  <item name="FrmSet.labelControl54">Z alram input</item>
+  <item name="FrmSet.labelControl62">Z referance input</item>
+  <item name="FrmSet.labelControl140">Z low limint-</item>
+  <item name="FrmSet.labelControl63">Z high limit -</item>
+  <item name="FrmSet.labelControl64">Z limit +</item>
+  <item name="FrmSet.labelControl60">C alram input</item>
+  <item name="FrmSet.labelControl61">C referance input</item>
+  <item name="FrmSet.labelControl55">B alram input</item>
+  <item name="FrmSet.labelControl56">B referance input</item>
+  <item name="FrmSet.labelControl57">B home input</item>
+  <item name="FrmSet.labelControl46">W alram input</item>
+  <item name="FrmSet.labelControl47">W referance input</item>
+  <item name="FrmSet.labelControl48">W limint -</item>
+  <item name="FrmSet.labelControl49">W limint +</item>
+  <item name="FrmSet.labelControl42">Y alarm input</item>
+  <item name="FrmSet.labelControl43">Y referance input</item>
+  <item name="FrmSet.labelControl44">Y limint -</item>
+  <item name="FrmSet.labelControl45">Y limint +</item>
+  <item name="FrmSet.labelControl41">X alarm input</item>
+  <item name="FrmSet.labelControl40">X referance input</item>
+  <item name="FrmSet.labelControl39">X limint -</item>
+  <item name="FrmSet.labelControl30">X limint +</item>
+  <item name="FrmSet.xtraTabPage4">output config</item>
+  <item name="FrmSet.labelControl98">protection door</item>
+  <item name="FrmSet.labelControl124">work lamp</item>
+  <item name="FrmSet.labelControl123">enable touch protection</item>
+  <item name="FrmSet.labelControl27">flash</item>
+  <item name="FrmSet.labelControl83">rotate device</item>
+  <item name="FrmSet.labelControl79">polarity</item>
+  <item name="FrmSet.labelControl80">pump</item>
+  <item name="FrmSet.labelControl81">work</item>
+  <item name="FrmSet.labelControl82">servo on</item>
+  <item name="FrmSet.labelControl75">cap 8</item>
+  <item name="FrmSet.labelControl76">cap 4</item>
+  <item name="FrmSet.labelControl77">cap 2</item>
+  <item name="FrmSet.labelControl78">cap 1</item>
+  <item name="FrmSet.labelControl71">I 8</item>
+  <item name="FrmSet.labelControl72">I 4</item>
+  <item name="FrmSet.labelControl73">I 2</item>
+  <item name="FrmSet.labelControl74">I 1</item>
+  <item name="FrmSet.labelControl67">Toff 8</item>
+  <item name="FrmSet.labelControl68">Toff 4</item>
+  <item name="FrmSet.labelControl69">Toff 2</item>
+  <item name="FrmSet.labelControl70">Toff 1</item>
+  <item name="FrmSet.labelControl58">Ton 8</item>
+  <item name="FrmSet.labelControl59">Ton 4</item>
+  <item name="FrmSet.labelControl65">Ton 2</item>
+  <item name="FrmSet.labelControl66">Ton 1</item>
+  <item name="FrmSet.xtraTabPage5">HDW config</item>
+  <item name="FrmSet.labelControl88">axis 3</item>
+  <item name="FrmSet.labelControl103">axis 2</item>
+  <item name="FrmSet.labelControl104">axis 1</item>
+  <item name="FrmSet.labelControl102">HDW type</item>
+  <item name="FrmSet.labelControl133">HDW port</item>
+  <item name="FrmSet.labelControl121">button 7</item>
+  <item name="FrmSet.labelControl122">button 6</item>
+  <item name="FrmSet.labelControl120">button 5</item>
+  <item name="FrmSet.labelControl118">button 4</item>
+  <item name="FrmSet.labelControl119">button 3</item>
+  <item name="FrmSet.labelControl117">button 2</item>
+  <item name="FrmSet.labelControl116">button 1</item>
+  <item name="FrmSet.labelControl89">axis C</item>
+  <item name="FrmSet.labelControl90">axis B</item>
+  <item name="FrmSet.labelControl91">axis W</item>
+  <item name="FrmSet.labelControl87">axis Y</item>
+  <item name="FrmSet.labelControl86">axis X</item>
+  <item name="FrmSet.labelControl85">spx100</item>
+  <item name="FrmSet.labelControl84">spx10</item>
+  <item name="FrmSet.xtraTabPage6">ABS encode</item>
+  <item name="FrmSet.labelControl134">data C</item>
+  <item name="FrmSet.labelControl115">data B</item>
+  <item name="FrmSet.labelControl114">data W</item>
+  <item name="FrmSet.labelControl113">data Y</item>
+  <item name="FrmSet.labelControl112">data X</item>
+  <item name="FrmSet.chkUseSongXia">Panassonic ABS incoder used</item>
+  <item name="FrmSet.chkUseFushi">Fuji ABS incoder used</item>
+  <item name="FrmSet.lbSetBOrigin">set mechamic origin point</item>
+  <item name="FrmSet.lbSetCOrigin">set mechamic origin point</item>
+  <item name="FrmSet.labelControl130">multy rounds data</item>
+  <item name="FrmSet.labelControl131">single rounds data</item>
+  <item name="FrmSet.labelControl128">multy rounds data</item>
+  <item name="FrmSet.labelControl129">single rounds data</item>
+  <item name="FrmSet.labelControl125">Axis C</item>
+  <item name="FrmSet.labelControl126">multy rounds data</item>
+  <item name="FrmSet.labelControl127">single rounds data</item>
+  <item name="FrmSet.labelControl101">Axis B</item>
+  <item name="FrmSet.labelControl100">multy rounds data</item>
+  <item name="FrmSet.labelControl10">局号C1</item>
+  <item name="FrmSet.labelControl7">局号B1</item>
+  <item name="FrmSet.labelControl4">局号Y1</item>
+  <item name="FrmSet.labelControl6">局号W1</item>
+  <item name="FrmSet.labelControl3">局号X1</item>
+  <item name="FrmSet.labelControl99">single rounds data</item>
+  <item name="FrmSet.xtraTabPage7">button config</item>
+  <item name="FrmSet.xtraTabPage3">Misc config</item>
+  <item name="FrmSet.labelControl143">Language</item>
+  <item name="FrmSet.labelControl93">start delay</item>
+  <item name="FrmSet.labelControl53">wait for change electorde</item>
+  <item name="FrmSet.labelControl21">position for change electrode</item>
+  <item name="FrmSet.labelControl97">electrode finger postion</item>
+  <item name="FrmSet.simpleButton2">Cancel</item>
+  <item name="FrmSet.simpleButton1">OK</item>
+
+  <item name="FrmSet.ScriptMode1">Single Line</item>
+  <item name="FrmSet.ScriptMode2">Multi Line</item>
+
+  <item name="FrmSet.ThrowStartMode1">穿透信号1</item>
+  <item name="FrmSet.ThrowStartMode2">最低位置1</item>
+  <item name="FrmSet.ThrowMode1">普通穿透1</item>
+  <item name="FrmSet.ThrowMode2">位置模式穿透1</item>
+
+
+  <item name="FrmSet.chkLight">使用工作灯1</item>
+  <item name="FrmSet.chkFushi">使用扶丝器1</item>
+  <item name="FrmSet.ckDuiDao">使用对刀1</item>
+  <item name="FrmSet.chkRotate">使用旋转头1</item>
+  <item name="FrmSet.chkBee">使用蜂鸣器1</item>
+  <item name="FrmSet.chkMen">使用防护门1</item>
+  <item name="FrmSet.chkChongShui">使用冲水1</item>
+  <item name="FrmSet.chkFanjixing">使用反极性1</item>
+  <item name="FrmSet.chkWhitIgnore">使用碰撞忽略1</item>
+
+  <item name="FrmSet.chkIgnoreShuibeng">使用碰撞忽略1</item>
+  <item name="FrmSet.chkIgnoreWarning">忽略所有伺服报警1</item>
+  <item name="FrmSet.checkEdit7">开机显示回零面板1</item>
+  <item name="FrmSet.checkEdit15">使用自动分中1</item>
+  <item name="FrmSet.labelControl166">CncScriptMode</item>
+  <item name="FrmSet.checkEdit17">使用自动换刀1</item>
+  <item name="FrmSet.labelControl145">刀库换刀位置控制1</item>
+  <item name="FrmSet.labelControl146">X位置1</item>
+  <item name="FrmSet.labelControl147">Y位置1</item>
+  <item name="FrmSet.labelControl149">W位置1</item>
+  <item name="FrmSet.labelControl148">换刀失败清零高度1</item>
+  <item name="FrmSet.labelControl159">回退高度系数1</item>
+
+  <item name="FrmSet.labelControl151">检测下降速度1</item>
+  <item name="FrmSet.labelControl152">检测下降速度2</item>
+  <item name="FrmSet.labelControl153">检测回退速度</item>
+  <item name="FrmSet.labelControl154">检测回退高度</item>
+  <item name="FrmSet.labelControl155">检测允许误差</item>
+
+
+  <item name="FrmSet.labelControl164">打孔速度1</item>
+  <item name="FrmSet.labelControl163">穿透模式1</item>
+  <item name="FrmSet.labelControl165">开始位置1</item>
+
+
+  <item name="FrmSet.checkEdit">Ignore</item>
+  <item name="FrmSet.checkEdit1">Ignore</item>
+  <item name="FrmSet.checkEdit5">Ignore</item>
+  <item name="FrmSet.checkEdit2">Ignore</item>
+  <item name="FrmSet.checkEdit3">Ignore</item>
+
+  <item name="FrmSet.labelControl144">刀库检测信号1</item>
+  <item name="FrmSet.labelControl150">锁存信号1</item>
+  <item name="FrmSet.labelControl161">B轴正限位1</item>
+  <item name="FrmSet.labelControl162">B轴负限位1</item>
+  <item name="FrmSet.labelControl160">C轴Z向信号1</item>
+
+
+
+
+
+
+
+
+
+  <item name="FormMove.FormMove">Move Control</item>
+  <item name="FormMove.lbTotalTime">Tips： press Ctrl to disable protection</item>
+  <item name="FormMove.simpleButton1">Close</item>
+
+  <item name="FormJiagongHistory.FormJiagongHistory">Work Hostory</item>
+  <item name="FormJiagongHistory.btnSave">Save</item>
+  <item name="FormJiagongHistory.simpleButton2">Close</item>
+  <item name="FormJiagongHistory.btnClear">Clear</item>
+  <item name="FormJiagongHistory.gridControl2.gridColumn12">Hole</item>
+  <item name="FormJiagongHistory.gridControl2.gridColumn1">CSYS</item>
+  <item name="FormJiagongHistory.gridControl2.gridColumn2">SetDepth</item>
+  <item name="FormJiagongHistory.gridControl2.gridColumn3">Throw depth</item>
+  <item name="FormJiagongHistory.gridControl2.gridColumn4">Time</item>
+  <item name="FormJiagongHistory.gridControl2.gridColumn5">Loss</item>
+  <item name="FormJiagongHistory.gridControl2.gridColumn6">Hole height</item>
+
+  <item name="FormHoleEdit.FormHoleEdit">holes operation</item>
+  <item name="FormHoleEdit.xtraTabPage4">function button</item>
+  <item name="FormHoleEdit.btnCloseAndLoad">compile load</item>
+  <item name="FormHoleEdit.btnDeleteHole">delet hole</item>
+  <item name="FormHoleEdit.btnAddHole">insert hole</item>
+  <item name="FormHoleEdit.simpleButton4">close</item>
+  <item name="FormHoleEdit.btnImport">impot file</item>
+  <item name="FormHoleEdit.btnExport">export file</item>
+  <item name="FormHoleEdit.btnNextHole">move donw</item>
+  <item name="FormHoleEdit.btnPreviousHole">move up</item>
+  <item name="FormHoleEdit.gridControl2.gridColumn12">Work</item>
+  <item name="FormHoleEdit.gridControl2.gridColumn18">Param</item>
+  <item name="FormHoleEdit.gridControl2.gridColumn1">CSYS</item>
+  <item name="FormHoleEdit.xtraTabPage1">step insert</item>
+  <item name="FormHoleEdit.labelControl14">csys</item>
+  <item name="FormHoleEdit.label1">start point</item>
+  <item name="FormHoleEdit.checkBox1">work</item>
+  <item name="FormHoleEdit.labelControl12">pcs</item>
+  <item name="FormHoleEdit.labelControl13">param</item>
+  <item name="FormHoleEdit.labelControl11">holes</item>
+  <item name="FormHoleEdit.label2">step distance</item>
+  <item name="FormHoleEdit.btnBatchCreate">step insert</item>
+  <item name="FormHoleEdit.xtraTabPage2">devide insert</item>
+  <item name="FormHoleEdit.labelControl15">csys</item>
+  <item name="FormHoleEdit.label3">start point</item>
+  <item name="FormHoleEdit.checkBox2">work</item>
+  <item name="FormHoleEdit.labelControl18">pcs</item>
+  <item name="FormHoleEdit.labelControl19">param</item>
+  <item name="FormHoleEdit.labelControl20">holes</item>
+  <item name="FormHoleEdit.label4">end point</item>
+  <item name="FormHoleEdit.btnBatchCreate2">devide insert</item>
+  
+  <item name="FormMove.radioGroup1.item4">continue</item>
+  <item name="ContraRegManager.LeftDays">left using time：{0}days</item>
+  <item name="FormMessage2.FormMessage2">alarm</item>
+  <item name="FormMessage2.btnNo">no</item>
+  <item name="FormMessage2.btnYes">yes</item>
+  <item name="FormMessage2.simpleButton1">change electrode</item>
+
+  <item name="FormReg.btnLoadFile">Load file</item>
+  <item name="FormReg.btnGenerate">Generate file</item>
+
+
+  <item name="FormSetValue.FormSetValue">Set Axis Value</item>
+  <item name="FormSetValue.labelControl1">New Value</item>
+  <item name="FormSetValue.btnCancel">Cancel</item>
+  <item name="FormSetValue.btnAccept">OK</item>
+
+
+
+</languages>
